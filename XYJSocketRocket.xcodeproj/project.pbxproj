@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C40F2C225D1201900B3B021 /* XYJSocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2C025D1201900B3B021 /* XYJSocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C40F2F925D1208400B3B021 /* NSURLRequest+XYJSRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2C925D1208400B3B021 /* NSURLRequest+XYJSRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C40F2FA25D1208500B3B021 /* NSRunLoop+XYJSRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2CB25D1208400B3B021 /* NSRunLoop+XYJSRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C40F2FB25D1208500B3B021 /* XYJSRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2CC25D1208400B3B021 /* XYJSRWebSocket.m */; };
+		4C40F2FC25D1208500B3B021 /* XYJSRSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2CD25D1208400B3B021 /* XYJSRSecurityPolicy.m */; };
+		4C40F2FD25D1208500B3B021 /* NSURLRequest+XYJSRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2CE25D1208400B3B021 /* NSURLRequest+XYJSRWebSocket.m */; };
+		4C40F2FE25D1208500B3B021 /* XYJSRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2CF25D1208400B3B021 /* XYJSRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C40F2FF25D1208500B3B021 /* NSRunLoop+XYJSRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2D025D1208400B3B021 /* NSRunLoop+XYJSRWebSocket.m */; };
+		4C40F30025D1208500B3B021 /* XYJSRProxyConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2D325D1208400B3B021 /* XYJSRProxyConnect.m */; };
+		4C40F30125D1208500B3B021 /* XYJSRProxyConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2D425D1208400B3B021 /* XYJSRProxyConnect.h */; };
+		4C40F30225D1208500B3B021 /* XYJSRRunLoopThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2D625D1208400B3B021 /* XYJSRRunLoopThread.h */; };
+		4C40F30325D1208500B3B021 /* XYJSRRunLoopThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2D725D1208400B3B021 /* XYJSRRunLoopThread.m */; };
+		4C40F30425D1208500B3B021 /* XYJSRPinningSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2D925D1208400B3B021 /* XYJSRPinningSecurityPolicy.m */; };
+		4C40F30525D1208500B3B021 /* XYJSRPinningSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2DA25D1208400B3B021 /* XYJSRPinningSecurityPolicy.h */; };
+		4C40F30625D1208500B3B021 /* XYJSRConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2DB25D1208400B3B021 /* XYJSRConstants.h */; };
+		4C40F30725D1208500B3B021 /* XYJSRDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2DD25D1208400B3B021 /* XYJSRDelegateController.m */; };
+		4C40F30825D1208500B3B021 /* XYJSRDelegateController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2DE25D1208400B3B021 /* XYJSRDelegateController.h */; };
+		4C40F30925D1208500B3B021 /* NSRunLoop+XYJSRWebSocketPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2DF25D1208400B3B021 /* NSRunLoop+XYJSRWebSocketPrivate.h */; };
+		4C40F30A25D1208500B3B021 /* XYJSRSIMDHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2E125D1208400B3B021 /* XYJSRSIMDHelpers.m */; };
+		4C40F30B25D1208500B3B021 /* XYJSRRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2E225D1208400B3B021 /* XYJSRRandom.h */; };
+		4C40F30C25D1208500B3B021 /* XYJSRURLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2E325D1208400B3B021 /* XYJSRURLUtilities.m */; };
+		4C40F30D25D1208500B3B021 /* XYJSRError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2E425D1208400B3B021 /* XYJSRError.h */; };
+		4C40F30E25D1208500B3B021 /* XYJSRHTTPConnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2E525D1208400B3B021 /* XYJSRHTTPConnectMessage.m */; };
+		4C40F30F25D1208500B3B021 /* XYJSRMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2E625D1208400B3B021 /* XYJSRMutex.m */; };
+		4C40F31025D1208500B3B021 /* XYJSRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2E725D1208400B3B021 /* XYJSRLog.m */; };
+		4C40F31125D1208500B3B021 /* XYJSRHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2E825D1208400B3B021 /* XYJSRHash.m */; };
+		4C40F31225D1208500B3B021 /* XYJSRError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2E925D1208400B3B021 /* XYJSRError.m */; };
+		4C40F31325D1208500B3B021 /* XYJSRURLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2EA25D1208400B3B021 /* XYJSRURLUtilities.h */; };
+		4C40F31425D1208500B3B021 /* XYJSRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2EB25D1208400B3B021 /* XYJSRSIMDHelpers.h */; };
+		4C40F31525D1208500B3B021 /* XYJSRRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2EC25D1208400B3B021 /* XYJSRRandom.m */; };
+		4C40F31625D1208500B3B021 /* XYJSRHTTPConnectMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2ED25D1208400B3B021 /* XYJSRHTTPConnectMessage.h */; };
+		4C40F31725D1208500B3B021 /* XYJSRMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2EE25D1208400B3B021 /* XYJSRMutex.h */; };
+		4C40F31825D1208500B3B021 /* XYJSRHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2EF25D1208400B3B021 /* XYJSRHash.h */; };
+		4C40F31925D1208500B3B021 /* XYJSRLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2F025D1208400B3B021 /* XYJSRLog.h */; };
+		4C40F31A25D1208500B3B021 /* XYJSRIOConsumerPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2F225D1208400B3B021 /* XYJSRIOConsumerPool.h */; };
+		4C40F31B25D1208500B3B021 /* XYJSRIOConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2F325D1208400B3B021 /* XYJSRIOConsumer.h */; };
+		4C40F31C25D1208500B3B021 /* XYJSRIOConsumerPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2F425D1208400B3B021 /* XYJSRIOConsumerPool.m */; };
+		4C40F31D25D1208500B3B021 /* XYJSRIOConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2F525D1208400B3B021 /* XYJSRIOConsumer.m */; };
+		4C40F31E25D1208500B3B021 /* XYJSRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C40F2F625D1208400B3B021 /* XYJSRConstants.m */; };
+		4C40F31F25D1208500B3B021 /* NSURLRequest+XYJSRWebSocketPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2F725D1208400B3B021 /* NSURLRequest+XYJSRWebSocketPrivate.h */; };
+		4C40F32025D1208500B3B021 /* XYJSRSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40F2F825D1208400B3B021 /* XYJSRSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C40F2BD25D1201900B3B021 /* XYJSocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XYJSocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C40F2C025D1201900B3B021 /* XYJSocketRocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYJSocketRocket.h; sourceTree = "<group>"; };
+		4C40F2C125D1201900B3B021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C40F2C925D1208400B3B021 /* NSURLRequest+XYJSRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+XYJSRWebSocket.h"; sourceTree = "<group>"; };
+		4C40F2CB25D1208400B3B021 /* NSRunLoop+XYJSRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+XYJSRWebSocket.h"; sourceTree = "<group>"; };
+		4C40F2CC25D1208400B3B021 /* XYJSRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRWebSocket.m; sourceTree = "<group>"; };
+		4C40F2CD25D1208400B3B021 /* XYJSRSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRSecurityPolicy.m; sourceTree = "<group>"; };
+		4C40F2CE25D1208400B3B021 /* NSURLRequest+XYJSRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+XYJSRWebSocket.m"; sourceTree = "<group>"; };
+		4C40F2CF25D1208400B3B021 /* XYJSRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRWebSocket.h; sourceTree = "<group>"; };
+		4C40F2D025D1208400B3B021 /* NSRunLoop+XYJSRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+XYJSRWebSocket.m"; sourceTree = "<group>"; };
+		4C40F2D325D1208400B3B021 /* XYJSRProxyConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRProxyConnect.m; sourceTree = "<group>"; };
+		4C40F2D425D1208400B3B021 /* XYJSRProxyConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRProxyConnect.h; sourceTree = "<group>"; };
+		4C40F2D625D1208400B3B021 /* XYJSRRunLoopThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRRunLoopThread.h; sourceTree = "<group>"; };
+		4C40F2D725D1208400B3B021 /* XYJSRRunLoopThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRRunLoopThread.m; sourceTree = "<group>"; };
+		4C40F2D925D1208400B3B021 /* XYJSRPinningSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRPinningSecurityPolicy.m; sourceTree = "<group>"; };
+		4C40F2DA25D1208400B3B021 /* XYJSRPinningSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRPinningSecurityPolicy.h; sourceTree = "<group>"; };
+		4C40F2DB25D1208400B3B021 /* XYJSRConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRConstants.h; sourceTree = "<group>"; };
+		4C40F2DD25D1208400B3B021 /* XYJSRDelegateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRDelegateController.m; sourceTree = "<group>"; };
+		4C40F2DE25D1208400B3B021 /* XYJSRDelegateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRDelegateController.h; sourceTree = "<group>"; };
+		4C40F2DF25D1208400B3B021 /* NSRunLoop+XYJSRWebSocketPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+XYJSRWebSocketPrivate.h"; sourceTree = "<group>"; };
+		4C40F2E125D1208400B3B021 /* XYJSRSIMDHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRSIMDHelpers.m; sourceTree = "<group>"; };
+		4C40F2E225D1208400B3B021 /* XYJSRRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRRandom.h; sourceTree = "<group>"; };
+		4C40F2E325D1208400B3B021 /* XYJSRURLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRURLUtilities.m; sourceTree = "<group>"; };
+		4C40F2E425D1208400B3B021 /* XYJSRError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRError.h; sourceTree = "<group>"; };
+		4C40F2E525D1208400B3B021 /* XYJSRHTTPConnectMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRHTTPConnectMessage.m; sourceTree = "<group>"; };
+		4C40F2E625D1208400B3B021 /* XYJSRMutex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRMutex.m; sourceTree = "<group>"; };
+		4C40F2E725D1208400B3B021 /* XYJSRLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRLog.m; sourceTree = "<group>"; };
+		4C40F2E825D1208400B3B021 /* XYJSRHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRHash.m; sourceTree = "<group>"; };
+		4C40F2E925D1208400B3B021 /* XYJSRError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRError.m; sourceTree = "<group>"; };
+		4C40F2EA25D1208400B3B021 /* XYJSRURLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRURLUtilities.h; sourceTree = "<group>"; };
+		4C40F2EB25D1208400B3B021 /* XYJSRSIMDHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRSIMDHelpers.h; sourceTree = "<group>"; };
+		4C40F2EC25D1208400B3B021 /* XYJSRRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRRandom.m; sourceTree = "<group>"; };
+		4C40F2ED25D1208400B3B021 /* XYJSRHTTPConnectMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRHTTPConnectMessage.h; sourceTree = "<group>"; };
+		4C40F2EE25D1208400B3B021 /* XYJSRMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRMutex.h; sourceTree = "<group>"; };
+		4C40F2EF25D1208400B3B021 /* XYJSRHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRHash.h; sourceTree = "<group>"; };
+		4C40F2F025D1208400B3B021 /* XYJSRLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRLog.h; sourceTree = "<group>"; };
+		4C40F2F225D1208400B3B021 /* XYJSRIOConsumerPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRIOConsumerPool.h; sourceTree = "<group>"; };
+		4C40F2F325D1208400B3B021 /* XYJSRIOConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRIOConsumer.h; sourceTree = "<group>"; };
+		4C40F2F425D1208400B3B021 /* XYJSRIOConsumerPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRIOConsumerPool.m; sourceTree = "<group>"; };
+		4C40F2F525D1208400B3B021 /* XYJSRIOConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRIOConsumer.m; sourceTree = "<group>"; };
+		4C40F2F625D1208400B3B021 /* XYJSRConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYJSRConstants.m; sourceTree = "<group>"; };
+		4C40F2F725D1208400B3B021 /* NSURLRequest+XYJSRWebSocketPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+XYJSRWebSocketPrivate.h"; sourceTree = "<group>"; };
+		4C40F2F825D1208400B3B021 /* XYJSRSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYJSRSecurityPolicy.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C40F2BA25D1201900B3B021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C40F2B325D1201900B3B021 = {
+			isa = PBXGroup;
+			children = (
+				4C40F2BF25D1201900B3B021 /* XYJSocketRocket */,
+				4C40F2BE25D1201900B3B021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C40F2BE25D1201900B3B021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C40F2BD25D1201900B3B021 /* XYJSocketRocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C40F2BF25D1201900B3B021 /* XYJSocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				4C40F2D125D1208400B3B021 /* Internal */,
+				4C40F2CB25D1208400B3B021 /* NSRunLoop+XYJSRWebSocket.h */,
+				4C40F2D025D1208400B3B021 /* NSRunLoop+XYJSRWebSocket.m */,
+				4C40F2C925D1208400B3B021 /* NSURLRequest+XYJSRWebSocket.h */,
+				4C40F2CE25D1208400B3B021 /* NSURLRequest+XYJSRWebSocket.m */,
+				4C40F2CA25D1208400B3B021 /* Resources */,
+				4C40F2F825D1208400B3B021 /* XYJSRSecurityPolicy.h */,
+				4C40F2CD25D1208400B3B021 /* XYJSRSecurityPolicy.m */,
+				4C40F2CF25D1208400B3B021 /* XYJSRWebSocket.h */,
+				4C40F2CC25D1208400B3B021 /* XYJSRWebSocket.m */,
+				4C40F2C025D1201900B3B021 /* XYJSocketRocket.h */,
+				4C40F2C125D1201900B3B021 /* Info.plist */,
+			);
+			path = XYJSocketRocket;
+			sourceTree = "<group>";
+		};
+		4C40F2CA25D1208400B3B021 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C40F2D125D1208400B3B021 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				4C40F2D225D1208400B3B021 /* Proxy */,
+				4C40F2D525D1208400B3B021 /* RunLoop */,
+				4C40F2D825D1208400B3B021 /* Security */,
+				4C40F2DB25D1208400B3B021 /* XYJSRConstants.h */,
+				4C40F2DC25D1208400B3B021 /* Delegate */,
+				4C40F2DF25D1208400B3B021 /* NSRunLoop+XYJSRWebSocketPrivate.h */,
+				4C40F2E025D1208400B3B021 /* Utilities */,
+				4C40F2F125D1208400B3B021 /* IOConsumer */,
+				4C40F2F625D1208400B3B021 /* XYJSRConstants.m */,
+				4C40F2F725D1208400B3B021 /* NSURLRequest+XYJSRWebSocketPrivate.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		4C40F2D225D1208400B3B021 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				4C40F2D325D1208400B3B021 /* XYJSRProxyConnect.m */,
+				4C40F2D425D1208400B3B021 /* XYJSRProxyConnect.h */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		4C40F2D525D1208400B3B021 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				4C40F2D625D1208400B3B021 /* XYJSRRunLoopThread.h */,
+				4C40F2D725D1208400B3B021 /* XYJSRRunLoopThread.m */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		4C40F2D825D1208400B3B021 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				4C40F2D925D1208400B3B021 /* XYJSRPinningSecurityPolicy.m */,
+				4C40F2DA25D1208400B3B021 /* XYJSRPinningSecurityPolicy.h */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		4C40F2DC25D1208400B3B021 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4C40F2DD25D1208400B3B021 /* XYJSRDelegateController.m */,
+				4C40F2DE25D1208400B3B021 /* XYJSRDelegateController.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		4C40F2E025D1208400B3B021 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4C40F2E125D1208400B3B021 /* XYJSRSIMDHelpers.m */,
+				4C40F2E225D1208400B3B021 /* XYJSRRandom.h */,
+				4C40F2E325D1208400B3B021 /* XYJSRURLUtilities.m */,
+				4C40F2E425D1208400B3B021 /* XYJSRError.h */,
+				4C40F2E525D1208400B3B021 /* XYJSRHTTPConnectMessage.m */,
+				4C40F2E625D1208400B3B021 /* XYJSRMutex.m */,
+				4C40F2E725D1208400B3B021 /* XYJSRLog.m */,
+				4C40F2E825D1208400B3B021 /* XYJSRHash.m */,
+				4C40F2E925D1208400B3B021 /* XYJSRError.m */,
+				4C40F2EA25D1208400B3B021 /* XYJSRURLUtilities.h */,
+				4C40F2EB25D1208400B3B021 /* XYJSRSIMDHelpers.h */,
+				4C40F2EC25D1208400B3B021 /* XYJSRRandom.m */,
+				4C40F2ED25D1208400B3B021 /* XYJSRHTTPConnectMessage.h */,
+				4C40F2EE25D1208400B3B021 /* XYJSRMutex.h */,
+				4C40F2EF25D1208400B3B021 /* XYJSRHash.h */,
+				4C40F2F025D1208400B3B021 /* XYJSRLog.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4C40F2F125D1208400B3B021 /* IOConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				4C40F2F225D1208400B3B021 /* XYJSRIOConsumerPool.h */,
+				4C40F2F325D1208400B3B021 /* XYJSRIOConsumer.h */,
+				4C40F2F425D1208400B3B021 /* XYJSRIOConsumerPool.m */,
+				4C40F2F525D1208400B3B021 /* XYJSRIOConsumer.m */,
+			);
+			path = IOConsumer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C40F2B825D1201900B3B021 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C40F2FA25D1208500B3B021 /* NSRunLoop+XYJSRWebSocket.h in Headers */,
+				4C40F32025D1208500B3B021 /* XYJSRSecurityPolicy.h in Headers */,
+				4C40F2F925D1208400B3B021 /* NSURLRequest+XYJSRWebSocket.h in Headers */,
+				4C40F30925D1208500B3B021 /* NSRunLoop+XYJSRWebSocketPrivate.h in Headers */,
+				4C40F2FE25D1208500B3B021 /* XYJSRWebSocket.h in Headers */,
+				4C40F30125D1208500B3B021 /* XYJSRProxyConnect.h in Headers */,
+				4C40F31825D1208500B3B021 /* XYJSRHash.h in Headers */,
+				4C40F31925D1208500B3B021 /* XYJSRLog.h in Headers */,
+				4C40F30B25D1208500B3B021 /* XYJSRRandom.h in Headers */,
+				4C40F31425D1208500B3B021 /* XYJSRSIMDHelpers.h in Headers */,
+				4C40F31725D1208500B3B021 /* XYJSRMutex.h in Headers */,
+				4C40F30825D1208500B3B021 /* XYJSRDelegateController.h in Headers */,
+				4C40F31325D1208500B3B021 /* XYJSRURLUtilities.h in Headers */,
+				4C40F31B25D1208500B3B021 /* XYJSRIOConsumer.h in Headers */,
+				4C40F30625D1208500B3B021 /* XYJSRConstants.h in Headers */,
+				4C40F30525D1208500B3B021 /* XYJSRPinningSecurityPolicy.h in Headers */,
+				4C40F31A25D1208500B3B021 /* XYJSRIOConsumerPool.h in Headers */,
+				4C40F30D25D1208500B3B021 /* XYJSRError.h in Headers */,
+				4C40F31625D1208500B3B021 /* XYJSRHTTPConnectMessage.h in Headers */,
+				4C40F31F25D1208500B3B021 /* NSURLRequest+XYJSRWebSocketPrivate.h in Headers */,
+				4C40F2C225D1201900B3B021 /* XYJSocketRocket.h in Headers */,
+				4C40F30225D1208500B3B021 /* XYJSRRunLoopThread.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C40F2BC25D1201900B3B021 /* XYJSocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C40F2C525D1201900B3B021 /* Build configuration list for PBXNativeTarget "XYJSocketRocket" */;
+			buildPhases = (
+				4C40F2B825D1201900B3B021 /* Headers */,
+				4C40F2B925D1201900B3B021 /* Sources */,
+				4C40F2BA25D1201900B3B021 /* Frameworks */,
+				4C40F2BB25D1201900B3B021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYJSocketRocket;
+			productName = XYJSocketRocket;
+			productReference = 4C40F2BD25D1201900B3B021 /* XYJSocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C40F2B425D1201900B3B021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					4C40F2BC25D1201900B3B021 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 4C40F2B725D1201900B3B021 /* Build configuration list for PBXProject "XYJSocketRocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C40F2B325D1201900B3B021;
+			productRefGroup = 4C40F2BE25D1201900B3B021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C40F2BC25D1201900B3B021 /* XYJSocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C40F2BB25D1201900B3B021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C40F2B925D1201900B3B021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C40F30325D1208500B3B021 /* XYJSRRunLoopThread.m in Sources */,
+				4C40F2FC25D1208500B3B021 /* XYJSRSecurityPolicy.m in Sources */,
+				4C40F30F25D1208500B3B021 /* XYJSRMutex.m in Sources */,
+				4C40F30025D1208500B3B021 /* XYJSRProxyConnect.m in Sources */,
+				4C40F31D25D1208500B3B021 /* XYJSRIOConsumer.m in Sources */,
+				4C40F30E25D1208500B3B021 /* XYJSRHTTPConnectMessage.m in Sources */,
+				4C40F30725D1208500B3B021 /* XYJSRDelegateController.m in Sources */,
+				4C40F31C25D1208500B3B021 /* XYJSRIOConsumerPool.m in Sources */,
+				4C40F31025D1208500B3B021 /* XYJSRLog.m in Sources */,
+				4C40F2FB25D1208500B3B021 /* XYJSRWebSocket.m in Sources */,
+				4C40F30425D1208500B3B021 /* XYJSRPinningSecurityPolicy.m in Sources */,
+				4C40F31E25D1208500B3B021 /* XYJSRConstants.m in Sources */,
+				4C40F31525D1208500B3B021 /* XYJSRRandom.m in Sources */,
+				4C40F30A25D1208500B3B021 /* XYJSRSIMDHelpers.m in Sources */,
+				4C40F31125D1208500B3B021 /* XYJSRHash.m in Sources */,
+				4C40F2FD25D1208500B3B021 /* NSURLRequest+XYJSRWebSocket.m in Sources */,
+				4C40F31225D1208500B3B021 /* XYJSRError.m in Sources */,
+				4C40F2FF25D1208500B3B021 /* NSRunLoop+XYJSRWebSocket.m in Sources */,
+				4C40F30C25D1208500B3B021 /* XYJSRURLUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C40F2C325D1201900B3B021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C40F2C425D1201900B3B021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C40F2C625D1201900B3B021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XB3PS7P9TZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XYJSocketRocket/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xiaoyingjun.XYJSocketRocket;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C40F2C725D1201900B3B021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XB3PS7P9TZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XYJSocketRocket/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xiaoyingjun.XYJSocketRocket;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C40F2B725D1201900B3B021 /* Build configuration list for PBXProject "XYJSocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C40F2C325D1201900B3B021 /* Debug */,
+				4C40F2C425D1201900B3B021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C40F2C525D1201900B3B021 /* Build configuration list for PBXNativeTarget "XYJSocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C40F2C625D1201900B3B021 /* Debug */,
+				4C40F2C725D1201900B3B021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C40F2B425D1201900B3B021 /* Project object */;
+}
