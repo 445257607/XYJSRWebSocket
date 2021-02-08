@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name               = 'SocketRocket'
+  s.name               = 'XYJSocketRocket'
   s.version            = '0.0.1'
   s.summary            = 'SocketRocket改名版。原地址https://github.com/facebookarchive/SocketRocket。'
   s.homepage           = 'https://github.com/445257607/XYJSRWebSocket'
